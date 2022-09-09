@@ -1,0 +1,6 @@
+.left-container img {
+    width: 100%;
+    height: 800px;
+    max-height: min-content;
+
+}
