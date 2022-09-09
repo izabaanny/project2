@@ -1,11 +1,25 @@
-import React from 'react'
+import React from 'react';
 import './App.css';
+import Home from './UI/Components/Pages/Home';
+import About from './UI/Components/Pages/About';
+import Select from './UI/Components/Pages/Select';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 function App() {
+ 
   return (
-    <div className="App">
-      
-</div>
+    <div className='App'>
+    <>
+      <Router>
+        <Routes>
+          <Route path='/' element={ <Home />} />
+          <Route path='/About' element={ <About />} />
+          <Route path='/Donates' element={ <Select />} />
+        </Routes>
+      </Router>
+    </>
+    </div>
   );
 }
 
-export default App;
+export default App

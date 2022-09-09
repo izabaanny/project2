@@ -1,0 +1,370 @@
+.all{
+    overflow-x: hidden;
+}
+.page-body{
+    background-image: url("background.jpeg");
+    background-repeat: none;
+    background-size: cover;
+    height: 700px;
+    background-blend-mode: darken;
+    
+}
+.page-header{
+display: flex;
+align-items: center;
+padding-left: 50px;
+gap: 446px;
+position: absolute;
+width: 1600px;
+height: 98px;
+background-size: cover;
+background: #fdfdfd;
+}
+.oka{
+    position: relative;
+    margin-left: 80px;
+    margin-bottom:10px;
+    width: fit-content;
+}
+.img{
+    position: relative;
+    margin-left: auto;
+    margin-bottom: -40px;
+}
+
+select{
+    border: none;
+    background-color:none;
+    width: 90px;
+    font-size: 20px;
+}
+.nav{
+    color: rgb(21, 20, 20);
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+
+}
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+    padding: .25rem;
+}
+.nav ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.nav li{
+    padding: 8px 10px;
+    min-width: max-content;
+    font-size: 20px;
+}
+.nav li:hover{
+    background-color: rgb(241, 242, 252);
+}
+
+.book1{
+position: absolute;
+width: 275.54px;
+height: 420.52px;
+left: 474.54px;
+top: 315.6px;
+background: rgba(255, 255, 255, 0.25);
+transform: rotate(-11.05deg);
+}
+.word1{
+    position: absolute;
+    width: 1039px;
+    height: 289px;
+    left: 520px;
+    top: 289px;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 35;
+    font-size: 70px;
+    line-height: 70px;
+    color: #ffffff;
+    
+}
+.book2{
+    position: absolute;
+    width: 275.54px;
+    height: 420.52px;
+    left: 754.54px;
+    top: 275.6px;
+    background: rgba(255, 255, 255, 0.25);
+    transform: rotate(-11.05deg);
+    }
+
+.logi{
+    color: rgb(21, 20, 20);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1px;
+    width: 190px;
+    margin-right: 40%;
+    position: relative;
+}
+.start1{
+position: absolute;
+width: 266px;
+height: 29px;
+left: 0px;
+top: 0px;
+font-family: 'Inter';
+font-style: normal;
+font-size: 24px;
+line-height: 29px;
+color: #fcf8f8;
+list-style: none;
+}
+.start{
+position: absolute;
+left: 590px;
+top: 540px;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 16px;
+gap: 10px;
+width: 187px;
+height: 51px;
+background: #1a5753;
+border-radius: 6px;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.start a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+    padding: .25rem;
+}
+.start li {
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.page-bottom{
+display: flex;
+display: inline;
+position: absolute;
+width: 1600px;
+height: 420px;
+top: 738px;
+}
+h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.mineduc{
+position: absolute;
+display: flex;
+left: 400px;
+top: 60px;
+flex-direction: column;
+
+}
+.un{
+    position: absolute;
+display: flex;
+left: 680px;
+top: 80px;
+flex-direction: column;
+}
+.unicef{
+    position: absolute;
+    display: flex;
+    left: 980px;
+    top: 90px;
+    flex-direction: column;
+    
+    }
+.page-bottom1{
+display: flex;
+position: absolute;
+width:1600px;
+height: 810px;
+left: 1px;
+top: 750px;
+}
+.h1{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: absolute;
+width: 1600px;
+height: 610px;
+}
+.service{
+    position: relative;
+    width: 320px;
+    height: 300px;
+    border-radius: 5px;
+    border: 1px solid rgb(118, 117, 117);
+    top: 430px;
+    left: 150px;
+}
+.simg{
+justify-content: center;
+align-items: center;
+position: absolute;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+background-color:  #744375;
+left: 100px;
+top: 50px;
+}
+.servi{
+    font-size: 25px;
+    position: absolute;
+    top: 160px;
+    left: 100px;
+}
+.ensure{
+   position: absolute;
+   top: 200px;
+   left: 30px; 
+}
+.problem{
+    position: relative;
+    width: 320px;
+    height: 300px;
+    border-radius: 5px;
+    border: 1px solid rgb(118, 117, 117);
+    top: 430px;
+    left: 320px;
+}
+.solution{
+    position: relative;
+    width: 320px;
+    height: 300px;
+    border-radius: 5px;
+    border: 1px solid rgb(118, 117, 117);
+    top: 430px;
+    left: 450px;
+}
+.page-bottom2{
+
+
+position: absolute;
+width: 1600px;
+height: 643px;
+left: 0px;
+top: 1500px;
+}
+.ti{
+    display: flex;
+flex-direction: column;
+    align-items: center;
+}
+.what{
+font-size: 37px;
+font-weight: 550;
+}
+.pimg{
+    position: absolute;
+    background-image: url("child.png");
+    background-repeat: none;
+    background-size: cover;
+    right: 80px;
+    top: 130px;
+    width: 600px;
+    height: 500px;
+}
+.lorem{
+    position: relative;
+    left: 150px;
+    top: 299px;
+}
+.site-link{
+position: absolute;
+width: 1600px;
+height: 426px;
+left: 0px;
+top: 2200px;
+background: #744375;
+color: white;
+}
+.limg{
+    position: relative;
+    left: 700px;
+    top: 90px;
+    justify-content: center;
+align-items: center;
+}
+.loka{
+    position: relative;
+    left: 700px;
+    top: 84px; 
+    font-size: 20px;
+    font-style: italic;
+}
+.first{
+position: relative;
+left: 300px;
+top: 100px;
+}
+.site{
+font-size: 30px;
+
+}
+.first li {
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.second{
+    position: relative;
+    left: 700px;
+    top: 0px;
+    }
+    .partern{
+        font-size: 30px;
+    }
+    .second li {
+        padding: 0;
+        list-style: none;
+        display: flex;
+    }
+.third{
+    position: relative;
+    left: 1090px;
+    top: -90px;
+}
+.contact{
+    font-size: 30px;
+}
+.third li {
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.copy{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 70px;
+    gap: 6px;
+    position: absolute;
+    width: 1440px;
+    height: 23px;
+    left: 0px;
+    top: 429px;
+    color: black;
+    background: #FFFFFF;
+}
