@@ -42,10 +42,10 @@ export default function Home() {
             </li>
             
             <li >
-              <a href='/Sign in'>Sign in</a>
+              <Link to='/Login'>Signin</Link>
             </li>
             <li>
-              <a href='/register'>register</a>
+              <a href='/Register'>register</a>
               </li>
               </ul>
           </nav>
