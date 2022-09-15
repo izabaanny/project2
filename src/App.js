@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Home from './UI/Components/Pages/Home';
 import About from './UI/Components/Pages/About';
+import Signin from './UI/Components/Pages/Signin';
 import Select from './UI/Components/Pages/Select';
 import Register from './UI/Components/Pages/Register';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -16,6 +17,7 @@ function App() {
           <Route path='/' element={ <Home />} />
           <Route path='/About' element={ <About />} />
           <Route path='/Donates' element={ <Select />} />
+          <Route path='/Signin' element={<Signin/>} />
           <Route path='/register' element={ <Register />} />
         </Routes>
       </Router>

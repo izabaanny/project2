@@ -4,18 +4,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+.sign-body{
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
 
+    padding: 0px;
+}
 .login-container {
-    background-image: url(../../../ui/resources/images/library.png);
+    background-image: url(library1.jpg);
     background-size: cover;
     width: 100%;
     height: 100%;
+    top: 100px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     padding: 110px;
 }
-
+.google2{
+    position: relative;
+    margin-left: 20px;
+    margin-top: 0px;
+    width: 25px;
+}
 .login-header {
     gap: 17px;
     width: 45%;
@@ -163,3 +177,128 @@ hr {
     color: #000000;
     text-decoration: none;
 }
+.header1{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 24px 70px;
+gap: 473px;
+position: absolute;
+width: 1600px;
+height: 88px;
+left: 0px;
+top: 0px;
+background: #FFFFFF;
+    }
+.s-signin{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 24px 70px;
+gap: 473px;
+
+position: absolute;
+width: 1440px;
+height: 88px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+    }
+    .s-oka{
+        position: relative;
+        margin-left: -10px;
+        margin-bottom:25px;
+        width: fit-content;
+    }
+    .s-img{
+        position: relative;
+        margin-left: -18px;
+        margin-bottom: 0px;
+    }
+    .s-nav{
+        color: rgb(21, 20, 20);
+        display: flex;
+        align-items: flex-end;
+        width: 100%;
+    
+    }
+    .s-nav a {
+        color: inherit;
+        text-decoration: none;
+        height: 100%;
+        display: flex;
+        align-items: stretch;
+        padding: .25rem;
+    }
+    .s-nav ul {
+        padding: 0;
+        list-style: none;
+        display: flex;
+    }
+    .s-nav li{
+        padding: 8px 10px;
+        min-width: max-content;
+        font-size: 20px;
+    }
+    .-nav li:hover{
+        background-color: rgb(241, 242, 252);
+    }
+    .s-welcome{
+        position: absolute;
+        width: 541px;
+        height: 72px;
+        left: -42px;
+        top: -90px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 120%;
+        text-align: center;
+        color: #000000;   
+    }
+.sign-body{
+    position: relative;
+    }
+    .s-1{
+        color: rgb(21, 20, 20);
+        display: flex;
+        align-items: flex-end;
+        width: 100%;
+    
+    }
+    .s-1 a {
+        color: inherit;
+        text-decoration: none;
+        height: 100%;
+        display: flex;
+        align-items: stretch;
+        padding: .25rem;
+    }
+    .s-1 ul {
+        padding: 0;
+        list-style: none;
+        display: flex;
+    }
+    .s-1 li{
+        padding: 8px 10px;
+        min-width: max-content;
+        font-size: 20px;
+    }
+    .s-wor{
+        position: absolute;
+        width: 60px;
+        height: 22.32px;
+        left: 250px;
+        top: 308px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 120%;
+        color: #ffffff;
+        
+    }
+
+

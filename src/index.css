@@ -2,4 +2,5 @@
   --primary-color: #477183;
   --text-color: #145672;
   --border-color: #4D91AF;
+  overflow-x: hidden;
 }

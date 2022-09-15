@@ -65,7 +65,7 @@
 .regi{
   position: relative;
   right: -350px;
-  top: 170px;
+  top: 100px;
   color: black;  
 }
 .r-sign{
@@ -73,14 +73,14 @@ position: absolute;
 width: 587px;
 height: 590px;
 right: 100px;
-top: 205px;
+top: 150px;
 }
 .r-sign1{
 position: absolute;
 width: 584px;
 height: 400px;
 left: 0px;
-bottom: 0px;
+bottom: -450px;
 }
 input{
     border: none;
@@ -179,4 +179,63 @@ input{
 }
 li{
     list-style: none;
+}
+.r-section{
+    position: relative;
+    top: 30px;
+    left: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 45%;
+        
+    }
+    
+    .section h3 {
+        margin-bottom: 5px;
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+    }
+    .sign-in{
+        position: relative;
+        left: 150px;
+        top: 30px;
+        text-align: center;
+        width: 45%;
+        margin-bottom: 20px;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+    }
+    .form-input1 button {
+        position: absolute;
+        width: 584px;
+        height: 50px;
+        background: var(--primary-color);
+        border-radius: 10px;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        margin-top: 400px;
+    }
+    
+.check{
+position: absolute;
+width: 297px;
+height: 28px;
+left: 181px;
+top: 460px;
+font-family: 'Carter One';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+color: black;
 }

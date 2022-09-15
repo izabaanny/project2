@@ -2,6 +2,7 @@ import React from 'react';
 import './Register.css';
 import logo from './logo.png';
 import google from './google.png';
+import line from './Line1.png'
 import okavango from './OKAVANGO.png';
 import { Link } from 'react-router-dom'
 function Register() {
@@ -57,22 +58,27 @@ function Register() {
      <div className='google1'>
       <li ><a> Register with google</a></li>
       </div>
-      <div >
-
-      </div>
-</div>
+      <div className="r-section">
+        <img src={line} alt="" />
+        <h3>or</h3>
+        <img src={line} alt="" />
+        </div>
+        <h4 className="sign-in">create account here</h4>
      <div className='r-sign1'>
       
-<form>
+<form className='form-input1'>
   <input className='name' type="text" placeholder='full name'/>
   <input className='email' type="text" placeholder='Email address'/>
   <input className='password' type="password" placeholder='Create password'/>
   <input className='c-password' type="password" placeholder='Comfirm password'/>
+  <button>Create account</button>
 </form>
+<span className='check'>check link on your email or phone</span>
      </div>
      </div>
      </div>
-          </div>
+     </div>
+     </div>
   );
 }
 
